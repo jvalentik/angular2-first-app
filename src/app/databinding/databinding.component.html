@@ -11,4 +11,4 @@
 <app-custom-binding [result]="numberInterpolation"></app-custom-binding>
 <hr>
 <h1>Evnet binding</h1>
-<app-event-binding></app-event-binding>
+<app-event-binding (clicked)="onClicked($event)"></app-event-binding>
