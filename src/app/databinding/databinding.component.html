@@ -4,6 +4,8 @@
 </p>
 <hr>
 <h1>Property databinding</h1>
-<input type="text" [value]="stringInterpolation">
+<label for="first">First input:</label>
+<input type="text" id="first" [value]="stringInterpolation">
 <p [ngClass]="{redBorder: onTest()}">Is it styled?</p>
 <p [ngStyle]="{color: myColor}">Is this styled?</p>
+<app-custom-binding [result]="numberInterpolation"></app-custom-binding>
