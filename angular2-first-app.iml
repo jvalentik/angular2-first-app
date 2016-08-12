@@ -6,5 +6,6 @@
       <excludeFolder url="file://$MODULE_DIR$/dist" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="angular2-first-app node_modules" level="project" />
   </component>
 </module>
