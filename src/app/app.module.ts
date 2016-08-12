@@ -5,6 +5,8 @@ import { OtherComponent, AnotherComponent } from './other';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { CustomBindingComponent } from './databinding/custom-binding.component';
 import { EventBindingComponent } from './databinding/event-binding.component';
+import { TwoWayBindingComponent } from './databinding/two-way-binding.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,11 @@ import { EventBindingComponent } from './databinding/event-binding.component';
     AnotherComponent,
     DatabindingComponent,
     CustomBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule
   ],
   bootstrap: [AppComponent]
 })
