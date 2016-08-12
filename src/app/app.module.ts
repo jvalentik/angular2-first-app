@@ -7,6 +7,7 @@ import { CustomBindingComponent } from './databinding/custom-binding.component';
 import { EventBindingComponent } from './databinding/event-binding.component';
 import { TwoWayBindingComponent } from './databinding/two-way-binding.component';
 import {FormsModule} from '@angular/forms';
+import { LifecycleComponent } from './lifecycle.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {FormsModule} from '@angular/forms';
     DatabindingComponent,
     CustomBindingComponent,
     EventBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    LifecycleComponent
   ],
   imports: [
     BrowserModule, FormsModule

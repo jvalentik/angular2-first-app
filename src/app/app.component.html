@@ -7,3 +7,5 @@
   </div>
 </app-another>
 <app-databinding></app-databinding>
+<app-lifecycle *ngIf="!deleted"></app-lifecycle>
+<button (click)="deleted = true">Click me</button>

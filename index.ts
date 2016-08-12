@@ -1,3 +1,4 @@
+export * from './/lifecycle.component';
 export * from './databinding';
 export * from './databinding/custom-binding.component';
 export * from './databinding/event-binding.component';
